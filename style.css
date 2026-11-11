@@ -1,0 +1,207 @@
+   body {
+            background-color: #e5e5e5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            min-height: 100vh;
+            background-color: #ffffff;
+            padding: 15px;
+            padding-bottom: 70px;
+        }
+
+        .header-top {
+            font-size: 11px;
+            color: #777777;
+            font-weight: bold;
+        }
+
+        .header-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #222222;
+            margin-top: 3px;
+            margin-bottom: 12px;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 10px 10px 35px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 13px;
+            background-color: #fafafa;
+            box-sizing: border-box;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .promo-banner {
+            background: linear-gradient(135deg, #92400e, #d97706);
+            color: white;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .promo-banner h2 {
+            font-size: 17px;
+            margin: 0 0 5px 0;
+        }
+
+        .promo-banner p {
+            font-size: 12px;
+            margin: 0 0 10px 0;
+        }
+
+        .code-badge {
+            background-color: #ffffff;
+            color: #92400e;
+            padding: 5px 10px;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: #222222;
+            margin-bottom: 10px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .cat-card {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            text-align: center;
+            padding: 10px 5px;
+            flex: 1;
+            margin-right: 5px;
+        }
+
+        .cat-card:last-child {
+            margin-right: 0;
+        }
+
+        .cat-emoji {
+            font-size: 20px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .cat-name {
+            font-size: 11px;
+            color: #444;
+            font-weight: bold;
+        }
+
+        .store-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+
+        .store-img-box {
+            background-color: #fef3c7;
+            height: 85px;
+            text-align: center;
+            line-height: 85px;
+            font-size: 30px;
+        }
+
+        .store-info {
+            padding: 12px;
+            position: relative;
+        }
+
+        .store-name {
+            font-size: 14px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .rating {
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            background-color: #15803d;
+            color: white;
+            font-size: 11px;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .store-desc {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+            margin-bottom: 6px;
+        }
+
+        .store-time {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .version {
+            text-align: center;
+            font-size: 11px;
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 400px;
+            background-color: #ffffff;
+            border-top: 1px solid #ddd;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+
+        .nav-link {
+            text-align: center;
+            text-decoration: none;
+            color: #777;
+            font-size: 10px;
+            flex: 1;
+        }
+
+        .nav-link.active {
+            color: #92400e;
+            font-weight: bold;
+        }
+
+        .nav-emoji {
+            font-size: 15px;
+            display: block;
+            margin-bottom: 2px;
+        }
